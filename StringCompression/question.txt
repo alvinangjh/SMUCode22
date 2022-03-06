@@ -1,0 +1,24 @@
+ Today was a good day for the fishermen at Fortrana. The fishermen caught alot of strings and therefore has a lot of text to store, and requires a way to compress the strings. Your task is to construct a program that, given a string of characters, compresses any repeating characters to the character followed by the amount of time it repeats (ccc = c3) . If the character only appears once or twice(aa == a2), do not append the length.
+ 
+ Example: aabbcccddd = aabbc3d3 Aaaa = Aa3 aabbbbbbbCcccDddddddd = aab7Cc3Dd7
+    
+Input Format
+a string of characters
+    
+Constraints
+-
+
+Output Format
+a string of characters
+
+Sample Input 0
+aaa
+
+Sample Output 0
+a3
+
+Sample Input 1
+aabbcccddd
+
+Sample Output 1
+aabbc3d3

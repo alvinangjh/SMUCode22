@@ -1,0 +1,7 @@
+Program prog
+CHARACTER str*128
+READ(*, '(A)') str
+!enter your code here
+
+PRINT*, str
+End Program pro

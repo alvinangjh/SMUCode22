@@ -1,0 +1,22 @@
+Learn a new language!
+
+In the field of technology, maintenance of legacy systems is a crucial skill to have. Many companies have to maintain code bases that are decades of years old.
+
+The City of Fortrana traces its roots back to an old language.
+
+Write a program in Fortran that takes in a string and reverses it.
+
+Input Format
+String
+
+Constraints
+-
+
+Output Format
+String
+
+Sample Input 0
+apple
+
+Sample Output 0
+elppa

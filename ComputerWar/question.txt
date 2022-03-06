@@ -1,0 +1,27 @@
+In your journey, you encounter a computer fighting ring within an array of computers. Each computer has a certain amount of health. Each turn, two of the strongest computers would fight! The health of the least strongest computer will be deducted from the strongest computer, and it will be placed back into the array. This repeats until the last computer is standing.
+
+Example: Given an array of [90,40,30,10,5], take the largest two, which is 90 and 40, and place the difference, (50) back. Now, the array would look like this: [50,30,10,5]. Keep repeating until one computer is left. It would look like this:
+
+Round 1: [90, 40, 30, 10, 5]
+Round 2: [50,30,10,5]
+Round 3: [20,10,5]
+Round 4: [10,5]
+Round 5: [5]
+
+Write a function to return the health number of the last computer standing.
+
+Input Format
+An array of integers
+
+Constraints
+-
+
+Output Format
+Integer
+
+Sample Input 0
+10
+94 81 42 43 7 30 43 11 42 19
+
+Sample Output 0
+2

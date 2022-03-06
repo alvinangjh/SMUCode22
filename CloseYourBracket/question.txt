@@ -1,0 +1,30 @@
+A tornado has struck the City of Fortrana causing unprecedented damage.
+
+Most devastatingly, many brackets have been swept away by the disaster causing their significant others much grief. Help the brackets find their significant other!
+
+Your task is to find the minimum number of parenthesis needed to make the string valid.
+
+A parenthesis string is valid if for every '(' there is a corresponding ')'.
+
+For example, if string = "(()", to make it valid you would need to add another parenthesis to make the string valid. i.e. "(())".
+
+Write a function that finds the minimum number of parenthesis needed to make the string valid.
+
+Example 1: input: "(((" output: 3
+
+Example 2: input: "((()" output: 2
+
+Input Format
+String of characters
+
+Constraints
+Input String will contain only '(' or ')'.
+
+Output Format
+Integer
+
+Sample Input 0
+(()
+
+Sample Output 0
+1

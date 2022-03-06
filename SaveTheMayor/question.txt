@@ -1,0 +1,16 @@
+Looks like you've found yourself in a tough spot in Fortrana once again. This time, the Mayor's been kidnapped by a bunch of small-time goons who've imprisoned him in their evil lair. Your task is to save the mayor from the bad guys!
+
+The lair is a place made up of m x n cubicles in a 2-Dimensional grid. You start at the top-left cubicle, and our mayor is located in the bottom-right cubicle. You start out with a positive amount of mana, and if your mana level hits 0 or below in your conquest, you will be discovered and thrown out!
+
+Entering some cubicles may cause you to lose mana to the goons residing in them (denoted by negative integers); while some other cubicles might have potions for you to replenish your mana (denoted by positive integers); and some might be empty (denoted by a 0)
+
+You can only move in down or right directions with every move.
+
+Return the minimum amount of mana you need at the start before entering the dungeon.
+
+In the sample below the lair is a square array as such, and the minimum amount of mana you need is 14, as shown by the path taken (you could lose 13 mana taking this path, and you need at least 1 to save the mayor)
+
+Refer to the image for an illustration of the grid
+
+Input Format
+lair, an m x n grid

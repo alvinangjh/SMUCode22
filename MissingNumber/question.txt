@@ -1,0 +1,25 @@
+It's an emergency! Some numbers from Fortrana's great registry of numbers have been stolen! Help investigators find the stolen numbers.
+
+Given an array of numbers, return all the integers within the smallest and the largest numbers in the array that do not appear.
+
+ Example 1: Input: 1 3
+
+Output: [2]
+
+Explanation: Within 1 and 3: 2 is missing.
+
+Example 2: Input: 1 2 4 5 8
+
+Output: [3,6,7]
+
+Explanation: Within 1 and 8: 3,6,7 are missing.
+
+Input Format
+An array of numbers
+
+Constraints
+0 <= len(input) <= 10000
+
+Output Format
+Returns an array of the missing numbers in sorted order.
+Sample Output 0

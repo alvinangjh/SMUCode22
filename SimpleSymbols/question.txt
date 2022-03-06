@@ -1,0 +1,32 @@
+Please note that you may only answer this question in Java
+
+Using the Java language, have the function SimpleSymbols(str) take the str parameter being passed and determine if it is an acceptable sequence by either returning the string true or false.
+
+The str parameter will be composed of + and = symbols with several letters between them (ie. ++d+===+c++==a) and for the string to be true each letter must be surrounded by a +symbol.
+
+Input Format
+Your method will take in a string.
+
+Constraints
+The input string will not be empty and will have at least one letter.
+
+Output Format
+Return a boolean: true or false if the input string is acceptable.
+
+Sample Input 0
++d+=3=+s+
+
+Sample Output 0
+1
+
+Explanation 0
+every character is surrounded by a '+' hence the answer is true.
+
+Sample Input 1
+f++d+
+
+Sample Output 1
+0
+
+Explanation 1
+f is not surrounded by a '+' hence false.

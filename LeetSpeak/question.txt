@@ -1,0 +1,32 @@
+At Ajavat, you encountered a group of people calling themselves 0xDEADBEEF. They feed on doritos and monster energy, and speak a regional dialect called leetspeak. Their cooperation is essential to save the city of Ajavat. Create a translator to translate between standard english and leetspeak, and vice versa. (Hint: Assume that numerical characters would not be used for standard english)
+
+Example:
+
+Input: Hello, how are you?
+Output: He11o, how @re you?
+
+Input: Im fine thank you
+Output: |m fine +h@nk you
+
+Input: 7he quick 6rown fox jump5 over +he 1@zy do9.
+Output: The quick brown fox jumps over the lazy dog.
+
+Input: 1e@rn +o quick5cope m@+e
+Output: learn to quickscope mate
+
+The cipher below shows the conversion needed.
+
+Input Format
+A string of characters, either in Leetspeak or in English.
+
+Constraints
+-
+
+Output Format
+A string of characters.
+
+Sample Input 0
+hello world
+
+Sample Output 0
+he11o wor1d

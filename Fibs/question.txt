@@ -1,0 +1,32 @@
+Fibonacci Numbers are a series of numbers that start from 0 and 1, and rely on the sum of the previous 2 numbers to calculate the remaining numbers in the sequence.
+
+Write a function that takes in an integer n, and returns the nth fibonacci number in the sequence in an efficient manner.
+
+We require the solution to be modulo by 2147483647 to prevent overflow.
+
+Input Format
+an integer; n
+
+Constraints
+0 <= n <= 400
+
+Output Format
+an integer;
+
+Sample Input 0
+1
+
+Sample Output 0
+1
+
+Sample Input 1
+4
+
+Sample Output 1
+3
+
+Sample Input 2
+6
+
+Sample Output 2
+8

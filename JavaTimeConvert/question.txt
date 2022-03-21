@@ -1,0 +1,31 @@
+Using the Java language, have the function TimeConvert(num) take the num parameter being passed and return the number of hours and minutes the parameter converts to (ie. if num = 63 then the output should be 1 hour 3 minutes).
+
+Input Format
+Integer num: number of minutes
+
+Constraints
+num >= 0
+
+Output Format
+String: number of hour and minutes
+
+Sample Input 0
+63
+
+Sample Output 0
+1 hour 3 minutes
+
+Explanation 0
+63 minutes = 1 hour and 3 minutes
+
+Sample Input 1
+0
+
+Sample Output 1
+0 hours 0 minutes
+
+Sample Input 2
+61
+
+Sample Output 2
+1 hour 1 minute

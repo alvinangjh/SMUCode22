@@ -1,0 +1,10 @@
+The knights have found themselves in yet another challenging bind once again. While searching for a bug, they have found themselves in lost in a 2D array. There is only one way to enter and leave the dungeon - by traversing it in a spiral anti-clockwise fashion.
+
+Given an N x N array, return the array elements arranged from outermost elements to the middle element, travelling anti-clockwise.
+
+Sample Testcase 0
+array = [[1,2,3],         
+         [4,5,6],         
+         [7,8,9]]
+
+spiral_dungeon(array) #=> [1,4,7,8,9,6,3,2,5]

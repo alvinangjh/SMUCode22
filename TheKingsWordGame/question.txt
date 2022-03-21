@@ -1,0 +1,22 @@
+Word games are all the rage right now, and in the region of Fortrana, things are no different. Werdle is the hottest game and everyone from the King to the lowest commoner are hooked.
+
+The rules of Werdle are simple. Given a large board of the letters, form words that are connected vertically and/or horizontally. For example in the board below the word "word" is valid as it can be formed by letters vertically and horizontally connected. However, "block" is not a valid word as the letters cannot be formed diagonally.
+
+Fortrana's Werdle Skills is an extremely sensitive matter of National Pride. The King's knights have been tasked to automate a solution finder for Werdle so the King can win games with foreign nations.
+
+Code a programme that takes in the game board, a large collection of words and returns a list of valid words that appear. To prevent opponents from knowing that the King is being assisted, your programme must be highly performant.
+
+Input Format
+board: 2D List of characters dictionary: large List of words in the english language
+
+Constraints
+-
+
+Output Format
+valid words: List of valid words, sorted in lexicographical order.
+
+Sample Input 0
+5s t r i ni n a m gp u l a ts i n o iv h a r d 8coding mulan appear trees retrieval werdle ram stringmanipulationisvhard
+
+Sample Output 0
+ram stringmanipulationisvhard

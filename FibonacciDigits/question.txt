@@ -1,0 +1,38 @@
+The Fibonacci sequence is defined by the recurrence relation: Fn = Fn−1 + Fn−2, where F1 = 1 and F2 = 1.
+
+Hence the first 12 terms will be:
+
+F1 = 1
+F2 = 1
+F3 = 2
+F4 = 3
+F5 = 5
+F6 = 8
+F7 = 13
+F8 = 21
+F9 = 34
+F10 = 55
+F11 = 89
+F12 = 144
+
+The 12th term, F12, is the first term to contain three digits.
+
+Write a function fibonacciDigits which takes in a number n and returns the index of the first term to contain n number of digits.
+
+Input Format
+Integer n: number of digits
+
+Constraints
+0 < n <= 100
+
+Output Format
+Integer: the index of the first term to contain n number of digits.
+
+Sample Input 0
+3
+
+Sample Output 0
+12
+
+Explanation 0
+The 12th term of the fibonacci sequence: 144 is the first term to contain three digits.

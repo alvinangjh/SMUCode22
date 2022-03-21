@@ -1,0 +1,38 @@
+Your endeavours have left you with worn and torn clothes so you went to the nearby store to get some fresh fits.
+
+In lieu of payment, the shopkeeper asked to code a feature for the store. The store wants customers to leave a review on their purchases on the scale of 0 to 5 stars. This allows customers to make better informed decisions on their purchases, as well as raise potential issues with products.
+
+Write a program that takes in a large list of product id and individual ratings, and produces the average rating of each product id, out of 5. For the purposes of simplicity, round the amount of stars to the nearest digit.
+
+Example:
+
+Input: [["1", "1/5"], ["1", "4/5"], ["2", "1/5"], ["2", "1/5"]]
+
+Output: [['1', '2/5'], ['2', '1/5']]
+
+Input Format
+2D array of strings [id, rating]
+
+Constraints
+0 <= len(input) <= 10000
+
+Output Format
+2D array of strings, sorted in increasing order of id
+
+Sample Input 0
+10
+2
+0 0/5
+1 0/5
+1 3/5
+1 3/5
+0 1/5
+0 2/5
+1 1/5
+0 2/5
+1 3/5
+0 3/5
+
+Sample Output 0
+0 2/5
+1 2/5
